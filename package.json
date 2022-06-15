@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/postcss-config",
-  "version": "1.23.0",
+  "version": "1.24.0",
   "license": "MIT",
   "author": "mrroll",
   "main": "index.js",
@@ -19,8 +19,8 @@
     "postcss-preset-env": "^7.7.1"
   },
   "devDependencies": {
-    "@mrroll/eslint-config": "^8.28.0",
+    "@mrroll/eslint-config": "^8.29.0",
     "eslint": "^8.17.0",
-    "prettier": "^2.6.2"
+    "prettier": "^2.7.0"
   }
 }
