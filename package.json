@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/postcss-config",
-  "version": "1.33.0",
+  "version": "1.34.0",
   "license": "MIT",
   "author": "mrroll",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "prepublishOnly": "yarn install"
   },
   "volta": {
-    "node": "16.15.1",
+    "node": "16.16.0",
     "yarn": "1.22.19"
   },
   "dependencies": {
@@ -19,7 +19,7 @@
     "postcss-preset-env": "^7.7.2"
   },
   "devDependencies": {
-    "@mrroll/eslint-config": "^9.4.0",
+    "@mrroll/eslint-config": "^9.5.0",
     "eslint": "^8.19.0",
     "prettier": "^2.7.1"
   }
