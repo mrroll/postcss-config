@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/postcss-config",
-  "version": "1.266.0",
+  "version": "1.267.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -29,7 +29,7 @@
     "yarn": "1.22.19"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.14",
+    "autoprefixer": "^10.4.15",
     "postcss": "^8.4.27",
     "postcss-discard-comments": "^6.0.0",
     "postcss-flexbugs-fixes": "^5.0.2",
