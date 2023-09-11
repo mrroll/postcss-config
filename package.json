@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/postcss-config",
-  "version": "1.282.0",
+  "version": "1.283.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -38,7 +38,7 @@
     "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
-    "@mrroll/eslint-config-typescript": "^0.234.0",
+    "@mrroll/eslint-config-typescript": "^0.235.0",
     "@tsconfig/node18": "^18.2.1",
     "@types/node": "^18.17.15",
     "cross-env": "^7.0.3",
@@ -50,7 +50,7 @@
     "tsc-alias": "^1.8.7",
     "tsx": "^3.12.8",
     "typescript": "^5.2.2",
-    "vite-tsconfig-paths": "^4.2.0",
+    "vite-tsconfig-paths": "^4.2.1",
     "vitest": "^0.34.4",
     "yalc": "^1.0.0-pre.53"
   }
