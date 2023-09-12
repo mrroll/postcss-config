@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/postcss-config",
-  "version": "1.284.0",
+  "version": "1.285.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -16,13 +16,14 @@
     "/lib/**/*"
   ],
   "scripts": {
-    "build": "npm-run-all --sequential build:clean build:typescript build:alias",
+    "build": "npm-run-all --sequential lint build:clean build:typescript build:alias",
     "build:alias": "tsc-alias --project tsconfig.build.json --verbose",
     "build:clean": "rimraf ./lib",
     "build:typescript": "cross-env NODE_ENV=production TZ=UTC tsc --project tsconfig.build.json",
     "dev": "npm-run-all --parallel dev:watch dev:build",
     "dev:build": "cross-env NODE_ENV=development TZ=UTC nodemon --config nodemon.build.json",
-    "dev:watch": "cross-env NODE_ENV=development TZ=UTC nodemon --config nodemon.json ./src/dev.ts"
+    "dev:watch": "cross-env NODE_ENV=development TZ=UTC nodemon --config nodemon.json ./src/dev.ts",
+    "lint": "npx eslint './src/**/**'"
   },
   "volta": {
     "node": "18.17.1",
@@ -38,7 +39,8 @@
     "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
-    "@mrroll/eslint-config-typescript": "^0.237.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.0",
+    "@mrroll/eslint-config-typescript": "^0.240.0",
     "@tsconfig/node18": "^18.2.1",
     "@types/node": "^18.17.15",
     "cross-env": "^7.0.3",
