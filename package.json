@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/postcss-config",
-  "version": "1.330.0",
+  "version": "1.331.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -50,7 +50,7 @@
     "prettier": "^3.1.0",
     "rimraf": "^4.4.1",
     "tsc-alias": "^1.8.8",
-    "tsx": "^4.5.0",
+    "tsx": "^4.6.0",
     "typescript": "^5.3.2",
     "vite-tsconfig-paths": "^4.2.1",
     "vitest": "^0.34.6",
