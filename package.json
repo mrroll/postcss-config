@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/postcss-config",
-  "version": "1.332.0",
+  "version": "1.333.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -42,7 +42,7 @@
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
     "@mrroll/eslint-config-typescript": "^0.272.0",
     "@tsconfig/node18": "^18.2.2",
-    "@types/node": "^18.18.14",
+    "@types/node": "^18.19.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.54.0",
     "nodemon": "^3.0.1",
